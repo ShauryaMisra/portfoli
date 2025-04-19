@@ -1,50 +1,120 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
   <title>Shaurya Misra | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <script defer src="script.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- Custom Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet">
+
+  <!-- Your Agency-style CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <div class="container">
-    <section class="intro fade-in">
-      <h1>Shaurya Misra</h1>
-      <p>Product Implementation Consultant <br/>Aspiring Product Manager</p>
-    </section>
+<body id="page-top" class="index">
 
-    <section class="about fade-in">
-      <h2>I work at the intersection of product, engineering, and business</h2>
-      <p>I’ve led cross-functional implementations at Sprinklr and contributed to scalable backend systems at LTI Mindtree. I love simplifying complexity and building solutions users actually need.</p>
-    </section>
-
-    <section class="projects fade-in">
-      <h2>Selected Work</h2>
-
-      <div class="project">
-        <h3>Improving Onboarding for Enterprise Clients</h3>
-        <p>Reduced onboarding time by 30% through workflow simplification, analytics integration, and internal tooling.</p>
-        <a href="#">View Case Study</a>
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#page-top">Shaurya</a>
       </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">About</a></li>
+        <li><a href="#featured">Featured</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-      <div class="project">
-        <h3>Internal Advocacy Tool</h3>
-        <p>Drove 20% adoption growth across key accounts by designing internal tools for improved campaign visibility.</p>
-        <a href="#">View Case Study</a>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="intro-text">
+        <div class="intro-lead-in">Hi, I'm Shaurya</div>
+        <div class="intro-heading">I Build Scalable Digital Products</div>
+        <a href="#about" class="btn btn-xl btn-primary">Tell Me More</a>
       </div>
+    </div>
+  </header>
 
-      <div class="project">
-        <h3>Blinkit for Healthcare (Concept)</h3>
-        <p>Reimagined Blinkit to enable medicine ordering; mapped user journey and defined core MVP features.</p>
-        <a href="#">View Project</a>
+  <!-- About Section -->
+  <section id="about" class="bg-light-gray">
+    <div class="container text-center">
+      <h2 class="section-heading">About Me</h2>
+      <h3 class="section-subheading text-muted">From implementation to product — turning ideas into interfaces.</h3>
+      <p class="text-muted">With 3+ years in product implementation and engineering, I bridge business needs with technical execution. From Sprinklr to side projects — I'm all about user-first digital experiences.</p>
+    </div>
+  </section>
+
+  <!-- Featured Section -->
+  <section id="featured" class="bg-darkest-gray text-center">
+    <div class="container">
+      <h2 class="section-heading" style="color: #fff;">Featured Insight</h2>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <img src="https://media-hosting.imagekit.io/ae2ae50147804198/remotar-jobs-s5kTY-Ve1c0-unsplash.jpg?Expires=1839633139&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=N59jGsqMgXSKVWJgg9jUOezqfQ7VPAUhOketTO3yHwHuJOdk1pdQH20HEDKxoJ09rNppuJUOAnIP6Ihxmt5emnoC6NKsb5Vx8vkRr-uTLxXeipV1X8Sih35eCP~esglzPyGBwQp3kslRXRH1vmaqCL5ZnTA-uJNry0vihxjRfLjjnckn88gk~gjD3fNnHNa5THepbRix~Wk-AjwXPuJSOXMMFmoiPIevFPZJys8viqzv611ZxgwI6PituDniAdBs2G2IwC2m5N67gbS~G3udunPXrl5sUuJHUz26T9AEF94UcIU77ApSbHJ7X6Skqitn5TxLYPp0P4IcTAtXRk5BHQ__"
+               class="img-responsive img-centered" alt="Remote Work Image" style="margin-top: 30px; border-radius: 8px;">
+          <p class="text-muted" style="margin-top: 20px; color: #ddd;">
+            Visualizing modern remote-first product development. Work isn't a place — it's a mindset, a stack, and a shared mission.
+          </p>
+        </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <footer class="fade-in">
-      <p>Made by Shaurya Misra — 2025</p>
-    </footer>
-  </div>
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <div class="container">
+      <h2 class="section-heading text-center">Selected Work</h2>
+      <div class="row text-center">
+        <div class="col-md-4 portfolio-item">
+          <div class="portfolio-caption">
+            <h4>Client Onboarding Optimization</h4>
+            <p class="text-muted">Cut onboarding time by 30% at Sprinklr with smart integrations.</p>
+          </div>
+        </div>
+        <div class="col-md-4 portfolio-item">
+          <div class="portfolio-caption">
+            <h4>Internal Advocacy Platform</h4>
+            <p class="text-muted">Boosted adoption through a purpose-built internal dashboard.</p>
+          </div>
+        </div>
+        <div class="col-md-4 portfolio-item">
+          <div class="portfolio-caption">
+            <h4>Blinkit Health Hack</h4>
+            <p class="text-muted">Conceptualized medicine delivery via Blinkit – UX, features & flow.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container text-center">
+      <h2 class="section-heading">Get In Touch</h2>
+      <p class="text-muted">Email me at <strong>shaurya877@gmail.com</strong></p>
+      <a href="mailto:shaurya877@gmail.com" class="btn btn-primary btn-xl">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      <span class="copyright">© Shaurya Misra 2025</span>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>

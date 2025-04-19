@@ -1,85 +1,137 @@
+/*!
+ * Start Bootstrap - Agency Theme Inspired Custom CSS
+ */
 
-body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #fff;
-  color: #111;
-  scroll-behavior: smooth;
+ body {
+  overflow-x: hidden;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
 }
 
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem;
+.text-muted {
+  color: #777;
 }
 
-.intro {
+.text-primary {
+  color: #1ee2e7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+.navbar-default {
+  background-color: #222;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+  color: #1ee2e7;
+  font-family: "Kaushan Script", cursive;
+}
+
+.navbar-default .nav li a {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Montserrat;
+}
+
+.navbar-default .nav li a:hover {
+  color: #1ee2e7;
+}
+
+header {
   text-align: center;
-  margin-bottom: 3rem;
+  color: #fff;
+  background-image: url('https://unsplash.imgix.net/uploads%2F14115408840644deb16b0%2F2dc933e3?q=75&fm=jpg&auto=format&s=7f43646e4d26049c6c39890afb2e5ced');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
 }
 
-.intro h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+header .intro-lead-in {
+  font-size: 22px;
+  font-style: italic;
+  margin-bottom: 25px;
 }
 
-.intro p {
-  font-size: 1.1rem;
-  color: #555;
+header .intro-heading {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-family: Montserrat;
 }
 
-.about {
-  margin-bottom: 3rem;
+.btn-primary, .btn-xl {
+  color: #fff;
+  background-color: #1ee2e7;
+  border-color: #1ee2e7;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 15px 30px;
+  border-radius: 3px;
 }
 
-.about h2 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  color: #0e3a5e;
+.btn-primary:hover, .btn-primary:focus,
+.btn-xl:hover, .btn-xl:focus {
+  background-color: #17d0d5;
+  border-color: #17d0d5;
 }
 
-.projects h2 {
-  font-size: 1.4rem;
-  margin-bottom: 1.5rem;
-  color: #0e3a5e;
+section {
+  padding: 100px 0;
 }
 
-.project {
-  margin-bottom: 2rem;
+.bg-light-gray {
+  background-color: #f7f7f7;
 }
 
-.project h3 {
-  margin-bottom: 0.3rem;
-  font-size: 1.2rem;
-  color: #222;
+.bg-darkest-gray {
+  background-color: #222;
+  color: #fff;
 }
 
-.project p {
-  margin-bottom: 0.5rem;
-  color: #444;
+.img-centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
-.project a {
-  text-decoration: none;
-  color: #0e3a5e;
-  font-weight: bold;
+.portfolio-caption {
+  background-color: #fff;
+  padding: 20px;
+  margin: 15px auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.portfolio-caption h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.portfolio-caption p {
+  font-size: 14px;
+  font-style: italic;
+  color: #777;
 }
 
 footer {
+  padding: 25px 0;
   text-align: center;
-  margin-top: 4rem;
-  color: #777;
-  font-size: 0.9rem;
+  background-color: #f7f7f7;
 }
 
-/* Animation classes */
-.fade-in {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-}
-
-.fade-in.show {
-  opacity: 1;
-  transform: translateY(0);
+footer span.copyright {
+  font-family: Montserrat;
+  color: #555;
 }
